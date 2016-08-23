@@ -13,6 +13,7 @@
 		EC02C5371D6CC1B20002D410 /* TableCustomCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC02C5351D6CC1B20002D410 /* TableCustomCell.xcdatamodeld */; };
 		EC02C5391D6CC1B20002D410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC02C5381D6CC1B20002D410 /* Assets.xcassets */; };
 		EC02C53C1D6CC1B20002D410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC02C53A1D6CC1B20002D410 /* LaunchScreen.storyboard */; };
+		EC02C5441D6CC1FD0002D410 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02C5431D6CC1FD0002D410 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC02C5381D6CC1B20002D410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC02C53B1D6CC1B20002D410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC02C53D1D6CC1B20002D410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC02C5431D6CC1FD0002D410 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				EC02C52E1D6CC1B20002D410 /* AppDelegate.swift */,
 				EC02C5301D6CC1B20002D410 /* ViewController.swift */,
+				EC02C5431D6CC1FD0002D410 /* TableViewCell.swift */,
 				EC02C5321D6CC1B20002D410 /* Main.storyboard */,
 				EC02C5381D6CC1B20002D410 /* Assets.xcassets */,
 				EC02C53A1D6CC1B20002D410 /* LaunchScreen.storyboard */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					EC02C52A1D6CC1B20002D410 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DXU85YQC42;
 					};
 				};
 			};
@@ -139,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC02C5371D6CC1B20002D410 /* TableCustomCell.xcdatamodeld in Sources */,
+				EC02C5441D6CC1FD0002D410 /* TableViewCell.swift in Sources */,
 				EC02C5311D6CC1B20002D410 /* ViewController.swift in Sources */,
 				EC02C52F1D6CC1B20002D410 /* AppDelegate.swift in Sources */,
 			);
@@ -255,9 +260,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableCustomCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mp.debug.DrawMap.TableCustomCell;
+				PRODUCT_BUNDLE_IDENTIFIER = mp.debug.DrawMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -266,9 +272,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableCustomCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mp.debug.DrawMap.TableCustomCell;
+				PRODUCT_BUNDLE_IDENTIFIER = mp.debug.DrawMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
